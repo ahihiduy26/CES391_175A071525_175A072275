@@ -1,0 +1,17 @@
+body{
+  background-color: #A06D21;
+  }
+#introduced{
+  text-align: center;
+  color: #FFCC00 ;
+}
+#content{
+  color: #FFFFFF;
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-image: url("./vanlytruongthanh.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
