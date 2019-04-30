@@ -1,0 +1,32 @@
+table{
+  border-color: #3333FF;
+  background-color: #FFCC99
+}
+.nau{
+  background-color: #FFFFFF
+}
+body{
+  background-color: #FFCC99
+}
+h2{
+  background-color: #FFCC99;
+  color: #CC6600
+}
+th{
+  background-color: #CC6600;
+  color: #FFFFFF
+}
+#bang{
+  height: 346px;
+  width: 500px;
+  background-color: #FFCC99;
+  text-align: inherit;
+  position:absolute;
+  right: 150px;
+  top: 50px
+}
+#anh{
+  position: absolute;
+  left: 150px;
+  top: 100px
+}
