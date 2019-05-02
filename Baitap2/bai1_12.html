@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tạo form và các điều khiển</title>
+  <link rel="stylesheet" href="./bai1_12.css">
+</head>
+<body>
+    <h2>Phiếu đăng kí tham gia chương trình khuyến mãi</h2>
+    <table border="1">
+      <tr>
+        <td>Họ và tên</td>
+        <td><input type="text" name="no1" value="" placeholder="Nhập họ và tên"></td>
+      </tr>
+      <tr>
+        <td>Địa chỉ</td>
+        <td><input type="text" name="no1" value="" placeholder="Nhập địa chỉ cụ thể"></td>
+      </tr>
+      <tr>
+        <td>Điện thoại</td>
+        <td><input type="text" name="no1" value="" placeholder="Nhập dưới dạng số"></td>
+      </tr>
+      <tr>
+        <td>Giới Tính</td>
+        <td>
+          <input type="radio" name="no1" value="" checked="checked"> Nam
+          <input type="radio" name="no1" value=""> Nữ
+        </td>
+      </tr>
+      <tr>
+        <td>Nghề nghiệp</td>
+        <td>
+          <select class="" name="">
+            <optgroup label="Nghề nghiệp">
+              <option value="">Giáo Viên</option>
+              <option value="">Kỹ sư</option>
+              <option value="">Bác Sĩ</option>
+              <option value="">Khác</option>
+            </optgroup>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Chọn sản phẩm tham gia</td>
+        <td>
+          <select class="" name="">
+            <optgroup label="Chọn sản phẩm">
+              <option value="">Kem đánh răng</option>
+              <option value="">Dầu gội</option>
+              <option value="">Sữa tắm</option>
+              <option value="">Bột giặt</option>
+            </optgroup>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Số Người dự kiến tham gia</td>
+        <td><input type="text" name="" value="" placeholder="Dự kiến số người"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><button onclick="myFunction()">Đồng ý</button></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="20px" id="aa" align="center" coler=""></td>
+      </tr>
+    </table>
+  <script type="text/javascript">
+    function myFunction() {
+      document.getElementById("aa").innerHTML = "Bạn đã đăng kí thành công"
+    }
+  </script>
+</body>
+</html>
