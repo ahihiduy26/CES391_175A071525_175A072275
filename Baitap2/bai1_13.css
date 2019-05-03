@@ -1,0 +1,15 @@
+fieldset{
+  height: 55px;
+  width: 350px
+}
+table{
+  border-collapse: collapse;
+  background-color: #CCFFCC	;
+  color: #00CC99
+}
+h2{
+ margin-left: 150px;
+color: #0066CC}
+legend{
+  color: #FF9933
+}
