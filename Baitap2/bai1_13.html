@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tạo form và điều khiển</title>
+  <link rel="stylesheet" href="./bai1_13.css">
+</head>
+<body>
+    <form class="" action="index.html" method="get">
+    <h2>Đăng ký du lịch</h2>
+    <table border="1">
+      <tr>
+        <td>Họ và tên</td>
+        <td><input type="text" name="" value="" placeholder="nhập tên đầy đủ" size="30px"></td>
+      </tr>
+      <tr>
+        <td>Địa chỉ</td>
+        <td><input type="text" name="" value="" placeholder="nhập địa chỉ của bạn" size="30px"></td>
+      </tr>
+      <tr>
+        <td>Điện thoại</td>
+        <td><input type="text" name="" value="" placeholder="nhập dạng số" size="30px"></td>
+      </tr>
+      <tr>
+        <td>Khách hàng Việt Nam</td>
+        <td><input type="checkbox" name="" value=""></td>
+      </tr>
+      <tr>
+        <td>Chọn tour</td>
+        <td>
+          <select class="" name="">
+            <optgroup label="Miền Bắc">
+              <option value="">Hà Nội-Hạ Long-Sapa</option>
+              <option value="">Hà Nội-Chùa Hương-Ninh Bình</option>
+              <option value="">Hà Nội-Cát Bà-Tuần Châu</option>
+            </optgroup>
+            <optgroup label="Miền Trung">
+              <option value="">Huế-Bạch Mã-Đà Nẵng</option>
+              <option value="">Nha Trang-Đà Lạt</option>
+              <option value="">Buôn Mê Thuật-Gia Lai-Kontum</option>
+            </optgroup>
+            <optgroup label="Miền Nam">
+              <option value="">TH HCM-Cần Thơ-Cà Mau</option>
+              <option value="">TP HCM-Mỹ Tho</option>
+            </optgroup>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Phương tiện</td>
+        <td>
+          <input type="radio" name="phuongtien" value="">Máy Bay
+          <input type="radio" name="phuongtien" value="">Xe ô tô
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+            <fieldset>
+              <legend>số lượng khách</legend>
+              Người lớn : <input type="text" size="10px">
+              Trẻ em : <input type="text" size="10px">
+            </fieldset>
+        </td>
+      </tr>
+      <tr>
+        <td>Ghi chú thêm</td>
+        <td><textarea name="name" rows="5" cols="50"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><button name="button" onclick="myFunction">Đồng ý</button></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="30px" id="dan2"></td>
+      </tr>
+      <element onclick="script">
+      <script type="text/javascript">
+       function myFunction() {
+          document.getElementById("dan2").innerHTML = "Bạn đã đăng kí thành công"
+        } </script>
+    </table>
+  </form>
+</body>
+</html>
