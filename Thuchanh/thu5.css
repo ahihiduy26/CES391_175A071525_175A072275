@@ -1,0 +1,82 @@
+body{
+  margin: 0
+}
+
+header{
+  height: 600px;
+  background-image: url("./zed.JPG");
+  background-size: cover;
+  background-position: ;
+  position:relative;
+}
+nav{
+  display: flex;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  justify-content: space-between;
+}
+header::before{
+  content: "";
+  background-color: rgba(131,143,150, 0.4);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+footer{
+  height: 300px
+}
+nav .menu a{
+  color: white;
+  margin: 18px;
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: none;
+}
+a.duocchon{
+  border: 3px solid white;
+  padding:8px 13px;
+  border-radius:200px;
+}
+
+a:hover{
+  background-color: white;
+  color:red !important;
+}
+nav .logo{
+
+  font-size: 22px;
+
+}
+h1{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  position:absolute;
+  color: white;
+  top: 320px;
+  right: 630;
+
+}
+h1 a{
+  padding:  10px 15px;
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px
+}
+h1 strong{
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px
+}
