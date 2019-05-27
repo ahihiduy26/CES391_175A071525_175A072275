@@ -1,0 +1,219 @@
+body{
+  margin-left: 50px
+}
+#header{
+  width: 1240px;
+  height: 290px;
+  background-image:url(../images/nen.JPG) ;
+  border-bottom: 1px solid red;
+  position: relative;
+}
+#S-box{
+  width: 192px;
+  height: 30px;
+  margin-left: 0 auto;
+  padding-left: 0px
+}
+ .tren{
+  color: white;
+  position: absolute;
+  right: 50px;
+  text-align: right;
+  margin: 0 auto;
+}
+.search{
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 240px;
+  background-color:;
+  padding-right: 8px
+}
+.treen{
+  color: white;
+  font-family: arial;
+  text-decoration: none;
+}
+.treen:hover{
+  color: #9c88ff;
+  text-decoration:underline;
+}
+#hihanh{
+  position: absolute;
+  right: 10px;
+  top : 2px;
+  }
+img{
+  border: 1px solid #fbc531
+}
+.nen{
+  width: 1240px;
+  height: 50px;
+  position: absolute;
+  bottom: 30px;
+  background-color: #b60606
+}
+.thanhchon{
+  background-color: #c23616;
+  position: absolute;
+  bottom: 40px;
+  width: 1240px;
+  height: 40px;
+  font-family: arial;
+  display: flex;
+}
+ul{
+  width: 1230px;
+  height: 38px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.logo{
+  width: 1240px;
+  height: 204px;
+  position:absolute;
+  left: 0px;
+  text-align: left;
+}
+#n1{
+  position: absolute;
+  text-align: left;
+  bottom: 0px;
+  width: 1240px;
+  height: 30px;
+  background-color: white;
+  padding-top: 8px;
+  margin-top: 0px ;
+  margin-bottom: 0px ;
+}
+#body{
+  width: 1240px;
+  height: 1842px;
+  position: relative;
+  display: flex;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#left{
+  background-color: #FFFF66	;
+  height: 1842px;
+  width: 610px;
+}
+#right{
+  background-color: #33FF99;
+  height: 1842px;
+  width: 290px;
+  position: absolute;
+  right: 0px;
+}
+#center{
+  background-color: #CCCCFF;
+  height: 1842px;
+  width: 290px;
+  position: absolute;
+  right: 315px
+}
+.dictionary{
+  width: 290px;
+  height: 130px;
+  background-image: url(../images/sach.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 310px;
+  z-index: 4;
+}
+.coverdictionary{
+  width: 290px;
+  height: 130px;
+  background-color: #666666;
+  position: absolute;
+  top: 310px;
+  z-index: 5;
+  opacity: 0.6;
+}
+#writeDictionnary{
+  position: absolute;
+  top: 340px;
+  left: 70px;
+  font-size: 30px;
+  color: white ;
+  z-index: 6
+}
+.left-1{
+  width: 609px;
+  height: 410px;
+}
+.left-2{
+  width: 610px;
+  height: 473px;
+  background-color: red;
+}
+.col-6{
+  height: 473px;
+}
+}
+#footer{
+  background: #dcdde1;
+  width: 1240px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#border{
+
+  height: 5px;
+  background-color: red;
+}
+.trangchu{
+  color: white;
+  text-decoration: none
+}
+.trangchu:hover{
+  color: white;
+  text-decoration: none
+}
+#q{
+  position: absolute;
+  top: 450px;
+}
+#text-9{
+  position: absolute;
+  top : 530px
+}
+#hc{
+  position: absolute;
+  top: 640px;
+  background-color: #FF8040 ;
+  width: 290px;
+  height: 40px
+}
+.media{
+  background-color: white;
+}
+#hc-1{
+  position: absolute;
+  top: 1060px;
+  background-color: #0097e6 ;
+  width: 290px;
+  height: 40px
+}
+#tapchi{position: absolute;
+top : 890px
+;right: 15px}
+#daotaodaihoc{
+  position: absolute;
+  top: 1015px}
+.text-7{
+  position: absolute;
+  top : 1510px
+}
+#tphcm{
+  width: 290px;
+  height: 40px;
+  position: absolute;
+  top: 1460px;
+  background-color: #44bd32
+}
+#dropdownMenuButton{
+  background-color: #c23616
+}
