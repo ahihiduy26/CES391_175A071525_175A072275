@@ -6,6 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tạo form và các điều khiển</title>
   <link rel="stylesheet" href="./bai1_12.css">
+  <script type="text/javascript">
+   var ten = prompt("moi ban nhap ten : ");
+   var sdt = prompt("so dien thoai : ");
+   console.log(ten + sdt);
+   var delveryMessage = "Thong tin giao hang " + ten +" co so dt " + sdt;
+   alert(delveryMessage);
+  </script>
 </head>
 <body>
     <h2>Phiếu đăng kí tham gia chương trình khuyến mãi</h2>
@@ -66,6 +73,10 @@
         <td colspan="2" height="20px" id="aa" align="center" coler=""></td>
       </tr>
     </table>
+    <div class="">
+      <input type="radio" name="gioi" value="">Nam
+      <input type="radio" name="gioi" value="">Nu
+    </div>
   <script type="text/javascript">
     function myFunction() {
       document.getElementById("aa").innerHTML = "Bạn đã đăng kí thành công"
