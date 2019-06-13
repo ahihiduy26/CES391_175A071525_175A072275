@@ -63,6 +63,18 @@ img {
   background-color: #b60606
 }
 
+#header a:hover{
+  color:white;
+}
+button.btn.btn-secondary {
+  border:none;
+  display:block;
+}
+
+button.btn.btn-secondary a:hover {
+  background-color:gray;
+  color:white;
+}
 .thanhchon {
   background-color: #c23616;
   position: absolute;
