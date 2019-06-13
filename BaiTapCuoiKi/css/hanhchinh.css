@@ -1,59 +1,69 @@
-body{
+body {
   margin-left: 50px
 }
-#header{
+
+#header {
   width: 1240px;
   height: 290px;
-  background-image:url(../images/nen.JPG) ;
+  background-image: url(../images/nen.JPG);
   border-bottom: 1px solid red;
   position: relative;
 }
-#S-box{
+
+#S-box {
   width: 192px;
   height: 30px;
   margin-left: 0 auto;
   padding-left: 0px
 }
- .tren{
+
+.tren {
   color: white;
   position: absolute;
   right: 50px;
   text-align: right;
   margin: 0 auto;
 }
-.search{
+
+.search {
   position: absolute;
   top: 50px;
   right: 20px;
   width: 240px;
-  background-color:;
+  background-color: ;
   padding-right: 8px
 }
-.treen{
+
+.treen {
   color: white;
   font-family: arial;
   text-decoration: none;
 }
-.treen:hover{
+
+.treen:hover {
   color: #9c88ff;
-  text-decoration:underline;
+  text-decoration: underline;
 }
-#hihanh{
+
+#hihanh {
   position: absolute;
   right: 10px;
-  top : 2px;
-  }
-img{
+  top: 2px;
+}
+
+img {
   border: 1px solid #fbc531
 }
-.nen{
+
+.nen {
   width: 1240px;
   height: 50px;
   position: absolute;
   bottom: 30px;
   background-color: #b60606
 }
-.thanhchon{
+
+.thanhchon {
   background-color: #c23616;
   position: absolute;
   bottom: 40px;
@@ -62,21 +72,24 @@ img{
   font-family: arial;
   display: flex;
 }
-ul{
+
+ul {
   width: 1230px;
   height: 38px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
 }
-.logo{
+
+.logo {
   width: 1240px;
   height: 204px;
-  position:absolute;
+  position: absolute;
   left: 0px;
   text-align: left;
 }
-#n1{
+
+#n1 {
   position: absolute;
   text-align: left;
   bottom: 0px;
@@ -84,10 +97,11 @@ ul{
   height: 30px;
   background-color: white;
   padding-top: 8px;
-  margin-top: 0px ;
-  margin-bottom: 0px ;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-#body{
+
+#body {
   width: 1240px;
   height: 1842px;
   position: relative;
@@ -95,24 +109,28 @@ ul{
   margin-left: 0px;
   margin-right: 0px;
 }
-#left{
-  background-color: #FFFF66	;
+
+#left {
+  background-color: #FFFF66;
   height: 1842px;
   width: 610px;
 }
-#right{
+
+#right {
   height: 1842px;
   width: 290px;
   position: absolute;
   right: 0px;
 }
-#center{
+
+#center {
   height: 1842px;
   width: 290px;
   position: absolute;
   right: 315px
 }
-.dictionary{
+
+.dictionary {
   width: 290px;
   height: 130px;
   background-image: url(../images/sach.jpg);
@@ -121,7 +139,8 @@ ul{
   top: 310px;
   z-index: 4;
 }
-.coverdictionary{
+
+.coverdictionary {
   width: 290px;
   height: 130px;
   background-color: #666666;
@@ -130,127 +149,154 @@ ul{
   z-index: 5;
   opacity: 0.6;
 }
-#writeDictionnary{
+
+#writeDictionnary {
   position: absolute;
   top: 340px;
   left: 70px;
   font-size: 30px;
-  color: white ;
+  color: white;
   z-index: 6
 }
-.left-1{
+
+.left-1 {
   width: 609px;
   height: 410px;
 }
-.left-2{
+
+.left-2 {
   width: 610px;
   height: 473px;
   background-color: red;
 }
-.col-6{
+
+.col-6 {
   height: 473px;
 }
 }
-#footer{
+
+#footer {
   background: #dcdde1;
   width: 1240px;
   margin-left: 0px;
   margin-right: 0px;
 }
-#border{
 
+#border {
   height: 5px;
   background-color: red;
 }
-.trangchu{
+
+.trangchu {
   color: white;
   text-decoration: none
 }
-.trangchu:hover{
+
+.trangchu:hover {
   color: white;
   text-decoration: none
 }
-#q{
+
+#q {
   position: absolute;
   top: 450px;
 }
-#text-9{
+
+#text-9 {
   position: absolute;
-  top : 530px
+  top: 530px
 }
-#hc{
+
+#hc {
   position: absolute;
   top: 640px;
-  background-color: #FF8040 ;
+  background-color: #FF8040;
   width: 290px;
   height: 40px
 }
-.media{
+
+.media {
   background-color: white;
 }
-#hc-1{
+
+#hc-1 {
   position: absolute;
   top: 1060px;
-  background-color: #0097e6 ;
+  background-color: #0097e6;
   width: 290px;
   height: 40px
 }
-#tapchi{position: absolute;
-top : 890px
-;right: 15px}
-#daotaodaihoc{
+
+#tapchi {
   position: absolute;
-  top: 1015px}
-.text-7{
-  position: absolute;
-  top : 1510px
+  top: 890px;
+  right: 15px
 }
-#tphcm{
+
+#daotaodaihoc {
+  position: absolute;
+  top: 1015px
+}
+
+.text-7 {
+  position: absolute;
+  top: 1510px
+}
+
+#tphcm {
   width: 290px;
   height: 40px;
   position: absolute;
   top: 1460px;
   background-color: #44bd32
 }
-#dropdownMenuButton{
+
+#dropdownMenuButton {
   background-color: #c23616
 }
+
 .cat-header {
   background: #273c75;
-  display :flex;
+  display: flex;
 }
-.slide-cat-nav{
-	float: right;
-	max-width: 60px;
-	margin-top: 1px;
+
+.slide-cat-nav {
+  float: right;
+  max-width: 60px;
+  margin-top: 1px;
 }
-.left a.img-link{
-    width: 48px;
-    height: 48px;
-    position: absolute;
-	right: -100%;
-	top: 38%;
-	display: block;
-	background-image: url("images/search16.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-color: #4A7436;
-	text-indent: -999em;
+
+.left a.img-link {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: -100%;
+  top: 38%;
+  display: block;
+  background-image: url("images/search16.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #4A7436;
+  text-indent: -999em;
 }
-.left .overlay:hover{
-	background: #4A7436;
-	background: rgba(95, 180, 53, 0.5);
+
+.left .overlay:hover {
+  background: #4A7436;
+  background: rgba(95, 180, 53, 0.5);
 }
-.left .overlay{
-	position: absolute;
-	width: 610px;
-	height: 100%;
-	top: 0;
+
+.left .overlay {
+  position: absolute;
+  width: 610px;
+  height: 100%;
+  top: 0;
 }
-.login{
+
+.login {
   position: fixed;
-    top: 20px;
-    left: 4px;
-    width: 60px;;
+  top: 20px;
+  left: 4px;
+  width: 60px;
+  ;
   z-index: 10
 }
