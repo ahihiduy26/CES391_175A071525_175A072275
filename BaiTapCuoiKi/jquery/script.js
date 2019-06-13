@@ -2,9 +2,9 @@ $(document).ready(function(){
   var a = $('input')
   $("#bntt").click(function(){
     if( a == 0){
-      alert("You have not entered")
+      alert("Bạn Chưa Nhập Gì !!!")
     }else{
-      alert("Your post has been sent")
+      alert("Bạn Đã Gửi Ý Kiến Thành Công !!")
     }
   })
 })
